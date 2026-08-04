@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="X-RayVM.vcxproj" />
+  <Project Path="X-RayVM.vcxproj" Id="8a132ed9-2f56-47fb-a4d1-91b31f8465ea" />
 </Solution>
