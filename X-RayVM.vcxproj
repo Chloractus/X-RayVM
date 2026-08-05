@@ -27,6 +27,8 @@
     <ClInclude Include="external\ImGui\imstb_rectpack.h" />
     <ClInclude Include="external\ImGui\imstb_textedit.h" />
     <ClInclude Include="external\ImGui\imstb_truetype.h" />
+    <ClInclude Include="src\core\D3D11Context.h" />
+    <ClInclude Include="src\core\Win32Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="external\ImGui\backends\imgui_impl_dx11.cpp" />
@@ -35,6 +37,9 @@
     <ClCompile Include="external\ImGui\imgui_draw.cpp" />
     <ClCompile Include="external\ImGui\imgui_tables.cpp" />
     <ClCompile Include="external\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="src\core\D3D11Context.cpp" />
+    <ClCompile Include="src\core\main.cpp" />
+    <ClCompile Include="src\core\Win32Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
