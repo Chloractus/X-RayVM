@@ -64,6 +64,20 @@ void VM::Step() {
 		context.counter++;
 		break;
 
+	case OpCode::DIV:
+		b = context.OpStack.back(); context.OpStack.pop_back();
+		a = context.OpStack.back(); context.OpStack.pop_back();
+		if (b == 0) {
+			halted = true;
+			context.OpStack.push_back(0);
+			break;
+		}
+		else {
+			context.OpStack.push_back(a / b);
+			context.counter++;
+			break;
+		}
+
 	case OpCode::HALT:
 		halted = true;
 		break;

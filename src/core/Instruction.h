@@ -6,9 +6,11 @@ enum class OpCode {
 	ADD,
 	SUB,
 	MUL,
+	DIV,
 	JMP,
 	JZ,
-	HALT
+	HALT,
+	COUNT
 };
 
 struct Instruction {
