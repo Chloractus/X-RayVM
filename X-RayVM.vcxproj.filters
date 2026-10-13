@@ -54,6 +54,9 @@
     <ClInclude Include="src\core\Instruction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\core\OpcodeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="external\ImGui\imgui.cpp">
@@ -84,6 +87,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\core\VM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\OpcodeMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
